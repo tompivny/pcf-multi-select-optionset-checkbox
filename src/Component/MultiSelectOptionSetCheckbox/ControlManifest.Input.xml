@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PCF" constructor="MultiSelectOptionSetCheckbox" version="1.0.0" display-name-key="MultiSelectOptionSetCheckbox" description-key="Checkbox control for Multi Select OptionSets" control-type="virtual" >
+    <external-service-usage enabled="false" />
+    <property name="MultiSelectOptionSetAttribute" display-name-key="Multi Select OptionSet Attribute" description-key="Bound attribute for Multi Select OptionSet" of-type="MultiSelectOptionSet" usage="bound" required="true" />
+    <property name="ShowTooltip" display-name-key="Show Tooltip" description-key="Select if you want to show the tooltip. Tooltip text is shown based on the option description. If the option description is empty, the option label is shown in the tooltip." of-type="TwoOptions" usage="input" required="true" />
+    <property name="TooltipAppearance" display-name-key="Tooltip Appearance" description-key="Select the appearance for the tooltip: Normal or Inverted" of-type="Enum" usage="input" required="false">
+      <value name="Normal" display-name-key="Normal">Normal</value>
+      <value name="Inverted" display-name-key="Inverted">Inverted</value>
+    </property>
+    <property name="RemovedOptionsBehaviour" display-name-key="Removed Options Behaviour" description-key="Select the behaviour for the removed options: Hide or show as Disabled" of-type="Enum" usage="input" required="true">
+      <value name="Hide" display-name-key="Hide">Hide</value>
+      <value name="Disabled" display-name-key="Disabled">Disabled</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.14.0" />
+      <platform-library name="Fluent" version="9.46.2" />
+    </resources>
+  </control>
+</manifest>
