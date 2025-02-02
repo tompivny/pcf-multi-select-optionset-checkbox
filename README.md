@@ -1,0 +1,23 @@
+# PCF - Multi Select OptionSet Checkbox
+
+This is a PCF control (Custom front-end control for Dynamics 365 / Microsoft Power Apps) that allows you to select multiple options from a Multi Select OptionSet.
+
+## Info sheet
+- **Supported:** Only for **Model-Driven Apps**
+- **Framework:** React (Virtual control), Fluent UI v9
+- **Type**: Field (bound to a **MultiSelectOptionSet**)
+
+## Features
+- **Tooltip**: Shows tooltip with option description (or option label if description is empty)
+- **Removed options**: Can be either hidden or shown as disabled
+
+## Properties
+| Property name | Required | Type | Description |
+| -------- | -------- | -------- | -------- |
+| MultiSelectOptionSetAttribute  | Yes | MultiSelectOptionSet | Bound attribute for Multi Select OptionSet |
+| ShowTooltip  | Yes | TwoOptions | Select if you want to show the tooltip. Tooltip text is shown based on the option description. If the option description is empty, the option label is shown in the tooltip. |
+| TooltipAppearance  | No | Enum | Select the appearance for the tooltip: Normal or Inverted (Default: Normal) |
+| RemovedOptionsBehaviour  | Yes | Enum | Select the behaviour for the removed options: Hide or show as Disabled |
+
+## Client API limitations
+Custom controls bound to a MultiSelectOptionSet attribute do not support all of the client API methods triggered in a from context. For more details and a workaround, checkout my [blog article](https://example.com).
