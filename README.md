@@ -20,4 +20,4 @@ This is a PCF control (Custom front-end control for Dynamics 365 / Microsoft Pow
 | RemovedOptionsBehaviour  | Yes | Enum | Select the behaviour for the removed options: Hide or show as Disabled |
 
 ## Client API limitations
-Custom controls bound to a MultiSelectOptionSet attribute do not support all of the client API methods triggered in a from context. For more details and a workaround, checkout my [blog article](https://example.com).
+Custom controls bound to a MultiSelectOptionSet attribute do not support all of the client API methods triggered in a from context. For more details and a workaround, checkout my [blog article](https://www.tompivny.com/posts/multi-select-option-set-pcfs-and-client-scripts/).
