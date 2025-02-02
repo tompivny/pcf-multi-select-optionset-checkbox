@@ -1,6 +1,6 @@
 # PCF - Multi Select OptionSet Checkbox
 
-This is a PCF control (Custom front-end control for Dynamics 365 / Microsoft Power Apps) that allows you to select multiple options from a Multi Select OptionSet.
+[PCF](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview) (Custom front-end control for Dynamics 365 / Microsoft Power Apps) checkbox control for multi select optionsets.
 
 ## Info sheet
 - **Supported:** Only for **Model-Driven Apps**
