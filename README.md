@@ -2,6 +2,8 @@
 
 [PCF](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview) (Custom front-end control for Dynamics 365 / Microsoft Power Apps) checkbox control for multi select optionsets.
 
+![control_image](https://imgur.com/2jrZC7E)
+
 ## Info sheet
 - **Supported:** Only for **Model-Driven Apps**
 - **Framework:** React (Virtual control), Fluent UI v9
